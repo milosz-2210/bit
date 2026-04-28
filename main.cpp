@@ -15,12 +15,12 @@ void setBit(uint8_t &a, int bit, int value) {
 }
 
 int main() {
-    uint8_t a = 4;   // 00000100
+    uint8_t a = 4;   
 
-    setBit(a, 0, 1); // ustawiamy najm³odszy bit
+    setBit(a, 0, 1); 
 
-    cout << getBit(a, 0) << endl; // powinno byæ 1
-    cout << (int)a << endl;       // powinno byæ 5
+    cout << getBit(a, 0) << endl; 
+    cout << (int)a << endl;       
 
     return 0;
 }
